@@ -1,5 +1,3 @@
-// import logo from './logo.webp';
-// import iphone from './iphone.png';
 import './App.css';
 
 function App() {
