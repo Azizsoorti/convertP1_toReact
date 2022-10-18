@@ -69,14 +69,14 @@
   
   .video_area{
   
-    height: 85vh;
+    height: 75vh;
     width: 100%;
     background-size: cover;
     background-position: center; 
     overflow: hidden;
   }
   .vid{
-    height: 100vh;
+    height: 75vh;
     background-image: linear-gradient(0deg, #3ea7ff 0%, #42d1ff 100%);
     display: flex;
     opacity: .6;
