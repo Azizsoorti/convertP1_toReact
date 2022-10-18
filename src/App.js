@@ -235,12 +235,18 @@ function App() {
       </div>
     </div>
   </section>
+
+
+
   {/* Event */}
-  <section id="event" className=" video_area ">
+  <section id="event" className=" video_area " style={{ backgroundImage: "url(./images/video-area.webp)" }}>
     <div className="vid">
-      <div className="vid_icon"></div>
+      <div className="vid_icon" style={{ backgroundImage: "url(./images/video_icon.webp)" }}></div>
     </div>
   </section>
+
+
+
   {/* card-feature  */}
   <section id="card-feature" className="bg-white">
     <div className="container">

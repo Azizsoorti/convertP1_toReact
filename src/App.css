@@ -67,11 +67,10 @@
   border: 1px solid white;
   }
   
-  /* .video_area{
+  .video_area{
   
     height: 85vh;
     width: 100%;
-    background-image: url(./images/video-area.webp) ;
     background-size: cover;
     background-position: center; 
     overflow: hidden;
@@ -84,10 +83,9 @@
   }
   .vid_icon{
     width: 100%;
-    background-image: url(./images/video_icon.webp) ;
     background-repeat: no-repeat;
     background-position: center; 
-  } */
+  } 
   
   
   
