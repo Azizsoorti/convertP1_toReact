@@ -1,5 +1,5 @@
-import logo from './logo.webp';
-import iphone from './iphone.png';
+// import logo from './logo.webp';
+// import iphone from './iphone.png';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <div className="row bg-white ">
         <div className="col-6 ">
-          <img className="py-3" src={logo} alt="" />
+          <img className="py-3" src="./images/logo.webp" alt="" />
         </div>
         <div className="col-6 ">
           <nav className="navbar navbar-expand-lg  ">
@@ -94,7 +94,7 @@ function App() {
           </div>
         </div>
         <div className=" col-lg-6">
-          <img src={iphone.png} alt="" style={{ width: "100%" }} />
+          <img src="./images/iphone.png" alt="" style={{ width: "100%" }} />
         </div>
       </div>
     </div>
@@ -254,15 +254,15 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="row py-5 mb-4 owl-carousel owl-theme d-flex">
-        <div>
-          <img src="./images/card1.webp" alt="card_image" />
+      <div className="row py-5 mb-4 owl-carousel owl-theme  ">
+        <div className="col-12 col-lg-4 col-sm-6">
+          <img src="./images/card1.webp" alt="card_image"/>
         </div>
-        <div>
-          <img src="./images/card2.webp" alt="card_image" />
+        <div className="col-12 col-lg-4 col-sm-6">
+          <img src="./images/card2.webp" alt="card_image"/>
         </div>
-        <div>
-          <img src="./images/card3.webp" alt="card_image" />
+        <div className="col-12 col-lg-4 col-sm-6">
+          <img src="./images/card3.webp" alt="card_image"/>
         </div>
       </div>
     </div>
