@@ -1,5 +1,3 @@
-import './App.css';
-
 function Footer() {
   return (
     <section id="footer" className="bg-dark">

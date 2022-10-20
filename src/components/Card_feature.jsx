@@ -1,5 +1,3 @@
-import './App.css';
-
 function Card_feature() {
   return (
 
