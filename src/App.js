@@ -16,22 +16,22 @@ function App() {
   return (
     <div style={{ overflowX: "hidden" }}>
 
-      <Header />
+
 
       <Routes>
 
-        {/* <Route path="/" element={<Header />} /> */}
-        <Route path="banner" element={<Banner />} />
-        <Route path="categories" element={<Categories />} />
-        {/* <Route path="believe" element={<Believe />} /> */}
-        <Route path="features" element={<Features />} />
-        <Route path="event" element={<Event />} />
-        {/* <Route path="card_feature" element={<Card_feature />} /> */}
-        <Route path="price" element={<Price />} />
-        <Route path="questions" element={<Questions />} />
-        {/* <Route path="download" element={<Download />} /> */}
-        {/* <Route path="footer" element={<Footer />} /> */}
-
+        <Route path="/" element={<Header />} >
+          <Route index element={<Banner />} />
+          <Route path="categories" element={<Categories />} />
+          {/* <Route path="believe" element={<Believe />} /> */}
+          <Route path="features" element={<Features />} />
+          <Route path="event" element={<Event />} />
+          {/* <Route path="card_feature" element={<Card_feature />} /> */}
+          <Route path="price" element={<Price />} />
+          <Route path="questions" element={<Questions />} />
+          {/* <Route path="download" element={<Download />} /> */}
+          {/* <Route path="footer" element={<Footer />} /> */}
+        </Route>
       </Routes>
       <Footer />
     </div>
