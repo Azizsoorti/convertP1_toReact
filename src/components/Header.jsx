@@ -76,6 +76,7 @@ function Header() {
         </div>
       </section>
       <Outlet />
+      
     </>
   )
 }
